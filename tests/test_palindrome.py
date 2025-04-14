@@ -10,6 +10,5 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(is_palindrome("A man, a plan, a canal: Panama"))
         self.assertTrue(is_palindrome("Was it a car or a cat I saw?"))
         self.assertTrue(is_palindrome("No lemon, no melon"))
-
 if __name__ == '__main__':
     unittest.main()
